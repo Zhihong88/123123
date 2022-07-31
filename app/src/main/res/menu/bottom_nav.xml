@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/add_icon"
+        android:title="Item" />
+
+    <item
+        android:id="@+id/calculate"
+        android:icon="@drawable/ic_calculate"
+        android:title="Item" />
+    <item
+        android:id="@+id/translate"
+        android:icon="@drawable/ic_translate"
+        android:title="Translate" />
+
+</menu>

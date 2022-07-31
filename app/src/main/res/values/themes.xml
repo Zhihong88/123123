@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Theme.Assignment" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/bg_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorSecondaryVariant">@color/bg_color</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_blue</item>
+
+        <item name="popupMenuBackground">@drawable/popupstyle</item>
+        <item name="android:popupMenuStyle">@style/popupStyle</item>
+
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="roundImageView" parent="">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+
+    </style>
+
+    <style name="roundProfilePic" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="popupStyle" parent="Widget.MaterialComponents.PopupMenu">
+        <item name="android:popupBackground">@drawable/popupstyle</item>
+    </style>
+    <style name="Theme.Assignment.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Assignment.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Assignment.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="customfab">
+        <item name="android:background">@drawable/fab_custom</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+</resources>
